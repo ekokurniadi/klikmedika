@@ -1,0 +1,25 @@
+[
+  {
+    "name": "artikel",
+    "path": "/artikel",
+    "component": "C:\\\\Users\\\\Lenovo\\\\Documents\\\\EKOKURNIADI\\\\NUXTJS\\\\klikmedika\\\\pages\\\\artikel\\\\index.vue",
+    "chunkName": "pages/artikel/index",
+    "url": "/artikel",
+    "_name": "_0fa7ee5e"
+  },
+  {
+    "name": "artikel-id",
+    "path": "/artikel/:id",
+    "component": "C:\\\\Users\\\\Lenovo\\\\Documents\\\\EKOKURNIADI\\\\NUXTJS\\\\klikmedika\\\\pages\\\\artikel\\\\_id.vue",
+    "chunkName": "pages/artikel/_id",
+    "_name": "_d30c1f74"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Lenovo\\\\Documents\\\\EKOKURNIADI\\\\NUXTJS\\\\klikmedika\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_3c878d6c"
+  }
+]
