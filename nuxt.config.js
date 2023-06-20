@@ -1,5 +1,5 @@
 export default {
-  target: 'static',
+
   head: {
     title:
       'KlikMedika - Solusi Cerdas Digitalisasi Medis - Digitalisasi Rekam Medis',

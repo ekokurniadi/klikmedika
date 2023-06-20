@@ -75,7 +75,7 @@
                 <nuxt-link
                   :to="{
                     name: 'artikel-id',
-                    params: { id: artikel.id },
+                    params: { id: artikel.slug },
                   }"
                 >
                   <div class="artikel-img-cover">

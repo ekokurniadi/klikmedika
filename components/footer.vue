@@ -55,8 +55,6 @@
             <br />
             <nuxt-link to="/artikel">Artikel</nuxt-link>
             <br />
-            <nuxt-link to="/#kontak">Kontak</nuxt-link>
-            <br />
           </p>
         </div>
         <div class="col-lg-4 px-lg-5 mb-4 mb-lg-0">
@@ -127,9 +125,42 @@
         </div>
       </div>
     </div>
+
+    <a
+      :href="
+        'https://wa.me/' +
+        props.wa +
+        '?text=Hallo admin, saya ingin request demo aplikasi'
+      "
+      target="_blank"
+      class="float"
+    >
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
   </section>
   <!-- Footer section exit -->
 </template>
+
+<style>
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+</style>
 
 <script>
 export default {

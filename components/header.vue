@@ -82,14 +82,6 @@
                 >Artikel</nuxt-link
               >
             </li>
-            <li class="nav-item">
-              <nuxt-link
-                :class="setActive('/#kontak')"
-                :to="setHref('#kontak')"
-                exact
-                >Kontak</nuxt-link
-              >
-            </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item text-center">

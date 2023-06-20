@@ -86,7 +86,7 @@
             />
           </div>
           <v-divider />
-          <div v-html="artikelData.isi_artikel" class="mt-3"></div>
+          <text-area v-html="artikelData.isi_artikel"></text-area>
           <v-divider />
 
           <div class="row mt-2">
