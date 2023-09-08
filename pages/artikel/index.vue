@@ -140,6 +140,8 @@
           <v-pagination
             v-model="searchParams.page"
             :length="searchParams.total_page"
+            :total-visible="9"
+            elipsis="..."
             next-icon="mdi-menu-right"
             prev-icon="mdi-menu-left"
             @input="handlePageChange"
@@ -178,7 +180,7 @@ export default {
         selectedCategory: '',
         query: '',
         page: 1,
-        limit: 4,
+        limit: 20,
         total_page: 0,
       },
     }

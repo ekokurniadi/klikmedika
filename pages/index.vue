@@ -4,7 +4,8 @@
     <app-about />
     <app-service />
     <app-features />
-    <app-pricing :props="contact" />
+    <app-paket :props="contact" />
+    <app-addon />
     <app-galery />
   </div>
 </template>
@@ -18,6 +19,8 @@ import AppPricing from '@/components/pricing.vue'
 import AppTestimoni from '@/components/testimonials.vue'
 import AppGaleri from '@/components/galery.vue'
 import AppFaq from '@/components/faq.vue'
+import AppPaket from '@/components/paket.vue'
+import AppAddOn from '@/components/add_on.vue'
 export default {
   components: {
     'app-banner': AppBanner,
@@ -28,6 +31,8 @@ export default {
     'app-testi': AppTestimoni,
     'app-galery': AppGaleri,
     'app-faq': AppFaq,
+    'app-paket': AppPaket,
+    'app-addon': AppAddOn,
   },
   data() {
     return {

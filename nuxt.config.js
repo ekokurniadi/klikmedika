@@ -217,6 +217,7 @@ export default {
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: 'https://panel.klikmedika.id',
+    // baseURL: 'http://localhost/klikmedika_panel',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
